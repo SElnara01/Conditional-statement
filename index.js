@@ -158,46 +158,46 @@
 
 // ЗАДАНИЕ 9
 
-let question1 = alert('Назовите столицу Азербайджана');
-let answer1 = 'Баку';
-let answer2 = 'Гянджа';
-let answer3 = 'Габала';
-let a = 0;
-alert(answer1 + "  " +  answer2 + "  " + answer3);
-let answer_1 = prompt('Введите ответ');
-if(answer_1 == answer1){
-    alert('Правильный ответ');
-    a += 2;
-}else{
-    alert('Неправильный ответ');
-}
+// let question1 = alert('Назовите столицу Азербайджана');
+// let answer1 = 'Баку';
+// let answer2 = 'Гянджа';
+// let answer3 = 'Габала';
+// let a = 0;
+// alert(answer1 + "  " +  answer2 + "  " + answer3);
+// let answer_1 = prompt('Введите ответ');
+// if(answer_1 == answer1){
+//     alert('Правильный ответ');
+//     a += 2;
+// }else{
+//     alert('Неправильный ответ');
+// }
 
-let question2 = alert('Назовите столицу России');
-let answer4 = 'Самара';
-let answer5 = 'Москва';
-let answer6 = 'Санкт-Петербург';
-alert(answer4 + "  " +  answer5 + "  " + answer6);
-let answer_2 = prompt('Введите ответ');
-if(answer_2 == answer5){
-    alert('Правильный ответ');
-    a += 2;
-}else{
-    alert('Неправильный ответ');
-}
+// let question2 = alert('Назовите столицу России');
+// let answer4 = 'Самара';
+// let answer5 = 'Москва';
+// let answer6 = 'Санкт-Петербург';
+// alert(answer4 + "  " +  answer5 + "  " + answer6);
+// let answer_2 = prompt('Введите ответ');
+// if(answer_2 == answer5){
+//     alert('Правильный ответ');
+//     a += 2;
+// }else{
+//     alert('Неправильный ответ');
+// }
 
-let question3 = alert('Назовите столицу Турции');
-let answer7 = 'Анталия';
-let answer8 = 'Бурса';
-let answer9 = 'Стамбул';
-alert(answer7 + "  " +  answer8 + "  " + answer9);
-let answer_3 = prompt('Введите ответ');
-if(answer_3 == answer9){
-    alert('Правильный ответ');
-    a += 2;
-}else{
-    alert('Неправильный ответ');
-}
-alert('Ваш бал =' + " " + a);
+// let question3 = alert('Назовите столицу Турции');
+// let answer7 = 'Анталия';
+// let answer8 = 'Бурса';
+// let answer9 = 'Стамбул';
+// alert(answer7 + "  " +  answer8 + "  " + answer9);
+// let answer_3 = prompt('Введите ответ');
+// if(answer_3 == answer9){
+//     alert('Правильный ответ');
+//     a += 2;
+// }else{
+//     alert('Неправильный ответ');
+// }
+// alert('Ваш бал =' + " " + a);
 
 
 
@@ -206,5 +206,46 @@ alert('Ваш бал =' + " " + a);
 // -------------------------------------------------------------------------------------------------------
 
 // ЗАДАНИЕ 10
+
+// let date = +prompt("Введите число");
+// let month = +prompt("Введите месяц");
+// let year = +prompt("Введите год");
+// let days;
+// if (
+//   month === 1 ||
+//   month === 3 ||
+//   month === 5 ||
+//   month === 7 ||
+//   month === 8 ||
+//   month === 10 ||
+//   month === 12
+// ) {
+//   days = 31;
+// } else if (
+//   month === 4 ||
+//   month === 6 ||
+//   month === 9 ||
+//   month === 11
+// ) {
+//   days = 30;
+// } else {
+//   if ((year % 4 == 0 && year % 100 !== 0) || year % 400 == 0) {
+//     days = 29;
+//   } else {
+//     days = 28;
+//   }
+// }
+// date++;
+// if(date > days){
+//     date = 1;
+//     month++;
+// }
+// if(month > 12){
+//     month = 1;
+//     //date = 1;
+//     year++;
+// }
+// alert(date + '.' + month + '.' + year);
+
 
 
